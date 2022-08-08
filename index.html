@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weathersite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6d85b49921.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+</html>
+<body>
+  <div class="container">
+    <div class="action">
+      <form id="search-form">
+        <input type="text" id="city-input" placeholder="Enter city name here" />
+        <span>
+          <button class="search">search</button>
+        </span>
+      </form>
+      <br />
+    </div>
+    <div class="row">
+      <div class="col-3 cloud">
+        <img src="images/cloud.svg" alt="cloud" width="200px" />
+      </div>
+
+      <div class="col-3 mon">
+        <h2>
+          Mon <br />
+          9/30
+        </h2>
+        <div class="row">
+          <h1>
+            <span class="temperature">26°</span>
+            <span class="temp-units">C|F</span>
+          </h1>
+
+          <div class="row city">Yaounde</div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="row days">
+      <div class="col tue">
+        Tue <img src="images/rain.svg" alt="rain" width="50px" /> 28°
+      </div>
+      <div class="col wed">
+        Wed <img src="images/rain.svg" alt="rain" width="50px" /> 28°
+      </div>
+      <div class="col thu">
+        Thu <img src="images/rain.svg" alt="rain" width="50px" /> 28°
+      </div>
+      <div class="col fri">
+        Fri <img src="images/rain.svg" alt="rain" width="50px" /> 28°
+      </div>
+      <div class="col sat">
+        Sat <img src="images/rain.svg" alt="rain" width="50px" /> 28°
+      </div>
+      <div class="col sun">
+        Sun <img src="images/rain.svg" alt="rain" width="50px" /> 28°
+      </div>
+      <div class="col mon">
+        Mon <img src="images/rain.svg" alt="rain" width="50px" /> 28°
+      </div>
+    </div>
+    <footer>Kilar coded this</footer>
+  </div>
+  <script src="src/index.js"></script>
+</body>
