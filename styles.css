@@ -1,0 +1,73 @@
+.container {
+  background: rgb(177, 177, 248);
+  max-width: 800px;
+  margin: 50px 100px auto;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.action {
+  padding: 20px 1px 20px 500px;
+}
+h1 {
+  font-weight: bold;
+  color: blue;
+  font-size: 60px;
+}
+.temp-units:hover {
+  color: blue;
+  cursor: pointer;
+}
+.temperature:hover {
+  color: rgb(248, 248, 252);
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: smaller;
+
+  padding-left: 20px;
+}
+.city {
+  color: rgb(219, 162, 6);
+  padding-left: 30px;
+}
+button {
+  border-radius: 30px;
+  background: rgb(4, 150, 4);
+  border: rgb(4, 150, 4);
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+  transition: all 200ms ease-in-out;
+  box-shadow: 3px 3px hwb(120 76% 17% / 0.5);
+}
+button:hover {
+  background: rgb(1, 82, 1);
+  cursor: pointer;
+}
+
+.temp-units {
+  color: black;
+  font-size: 26px;
+  font-weight: lighter;
+  padding-left: 0%;
+  padding-top: 0px;
+}
+.days {
+  padding: 50px;
+  font-size: 20px;
+}
+footer {
+  font-size: 10px;
+  padding-left: 300px;
+  font-family: monospace;
+}
+.cloud {
+  padding-left: 20px;
+}
+.time,
+.days,
+footer,
+button,
+h2 {
+  color: aliceblue;
+}
